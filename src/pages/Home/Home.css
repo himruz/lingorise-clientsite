@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-bg{
+    background-image: url('/public/img/bg-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+.hero-text {
+    padding-right: 106px;
+}
+
+.hero-text h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 0px;
+}
+
+a.survey-btn {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 500;
+    justify-content: center;
+    color: #000;
+    background: #fff;
+    width: 170px;
+    height: 60px;
+    border-radius: 28px;
+}
+
+.hero-img {
+    position: relative;
+    /* width: 75%; */
+    padding-left: 156px;
+    height: 100vh;
+}
+
+
+
+.img-1 {
+    position: absolute;
+    top: 0;
+    left: 288px;
+    width: 60%;
+}
+
+.img-2 {
+    position: absolute;
+    top: 63px;
+    z-index: 999;
+    left: 87px;
+    width: 50%;
+}
+
+.section-heading.text-center h2 {
+    font-weight: 700;
+}
+
+.section-heading.text-center {padding-top: 100px;}
+
+.section-heading.text-center h6 {
+    font-size: 22px;
+    
+}
+
+.single-feature > span {
+    color: #8E40EC;
+    background: #E4E2F9;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    left: 103px;
+    width: 80px;
+    position: relative;
+    top: -10px;
+    height: 80px;
+    font-size: 32px;
+    border-radius: 50px;
+}
+
+.mission-vission{
+    background-image: url('/public/img/bg2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team{
+    background-image: url('/public/img/bg2.png');
+    padding: 325px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mission-img img {
+    max-width: 90%;
+}
+
+.mission-vission-text p {
+    padding-right: 91px;
+}
+
+.mission-vission-text {
+    color: #fff;
+}
+
+.how-it-works h2 {
+    font-weight: 700;
+}
+.single-work{
+    max-width: 75%;
+}
+h2.team-text {
+    position: relative;
+    top: 190px;
+}
+
+.single-team > img {
+    width: 35%;
+    border-radius: 100%;
+}
+
+.single-team {
+    background: #fff;
+    border-radius: 18px;
+    max-width: 83%;
+}
+
+
+
+.single-team p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.single-team span {
+    font-size: 23px;
+    font-weight: 500;
+}
+.single-contributor {
+    background: #fff;
+    border-radius: 18px;
+    max-width: 83%;
+}
+
+.single-contributor > img {
+    width: 35%;
+    border-radius: 100%;
+}
+
+.single-contributor span {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.single-contributor p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.achivement{
+    background-image: url('/public/img/bg2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.single-achievement{
+    background: #fff;
+    border-radius: 18px;
+    max-width: 83%;
+}
+
+.single-achievement img {
+    width: 89%;
+    border-radius: 4%;
+}
+
+.single-achievement p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.single-achievement span {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.single-achievement p {
+    padding: 0 20px;
+}
+
+.footer-menu > ul > li {
+    list-style: none;
+}
+
+.footer-menu > ul > li {
+    list-style: none;
+    margin-left: 12px;
+}
+
+.social >ul > li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
