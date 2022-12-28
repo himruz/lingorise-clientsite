@@ -55,7 +55,7 @@ const Survey = () => {
     e.preventDefault();
     // console.log(formData);
     // post the data to the server
-    axios.post('http://localhost:5000/survey', formData)
+    axios.post('https://lingorise.onrender.com/survey', formData)
     .then(res => console.log(res))
     .catch(err => console.log(err))
     alert('Your data has been submitted successfully')
