@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { eight, six } from "./checkBox";
 import "./survey.css";
@@ -49,10 +50,19 @@ const Survey = () => {
       }));
     }
   };
-  
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    // console.log(formData);
+    // post the data to the server
+    axios.post('http://localhost:5000/survey', formData)
+    .then(res => console.log(res))
+    .catch(err => console.log(err))
+    alert('Your data has been submitted successfully')
+  }
 
   return (
-    <form className="quize shadow">
+    <form className="quize shadow" onSubmit={handleSubmit}>
       <div className="question-bar">
         <h2 className="qestion">1. What is your name? (আপনার নাম কি ?)</h2>
         <div className="col-sm-10">
@@ -696,7 +706,7 @@ const Survey = () => {
       <div className="footer-button text-center w-100">
         <button
           id="submit"
-          type="button"
+          type="submit"
           onClick={() => console.log(formData)}
           className="submitBtn w-100"
         >
